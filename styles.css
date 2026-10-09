@@ -119,3 +119,24 @@ section.alt { background: #f1f5f1; }
 .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
 
 .note { background: #fff7e0; border: 1px solid #f0d98a; padding: .9rem 1.2rem; border-radius: 10px; font-size: .92rem; }
+
+/* ===== Dark theme ===== */
+:root {
+  --bg: #000000;
+  --card: #111111;
+  --text: #e8efe9;
+  --muted: #9bb0a4;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.7);
+}
+
+h1, h2, h3 { color: #ffffff; }
+a { color: #5ec79b; }
+a:hover { color: #8be0bb; }
+
+.site-header, .site-footer { background: #000000; border-bottom: 1px solid #1f3d30; }
+.site-footer { border-top: 1px solid #1f3d30; border-bottom: 0; }
+
+section.alt { background: #0a0a0a; }
+.card .tag { background: #12261d; color: #7fd4a9; }
+.timeline li::before { border-color: #000000; }
+.note { background: #2a2208; border-color: #5a4a12; color: #f3e6b0; }
