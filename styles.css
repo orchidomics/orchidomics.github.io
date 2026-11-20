@@ -167,3 +167,13 @@ section.alt { background: #0a0a0a; }
 .hero-logo { width: 104px; height: 104px; flex: none; }
 section { border-top: 1px solid #1f3d30; }
 @media (max-width: 600px) { .hero-brand { flex-direction: column; gap: .5rem; } .hero-logo { width: 84px; height: 84px; } }
+
+/* All-black pages with subtle dark-green dividers */
+.page-title { background: #000; }
+section.alt { background: #000; }
+section { border-top-color: #24473a; }
+.pub-list + h2 { border-top: 1px solid #24473a; padding-top: 2rem; }
+
+/* Larger lab name on the home page */
+.hero h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem); }
+.hero-logo { width: 124px; height: 124px; }
