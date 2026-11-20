@@ -194,3 +194,6 @@ section { border-top-color: #24473a; }
   .hero-logo { width: 150px; height: 150px; }
   .hero-text p { margin-left: auto; margin-right: auto; }
 }
+
+/* Bring the logo closer to the text */
+.hero-layout { gap: .9rem; }
