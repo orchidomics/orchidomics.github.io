@@ -2,8 +2,8 @@
 // SITE SETTINGS — edit these values and every page updates.
 // ============================================================
 const SITE = {
-  name: "Damian's Remote Lab",    // shown in the header
-  accent: "Lab",                  // last word highlighted in gold (optional)
+  name: "The Damian lab",        // shown in the header
+  accent: "lab",                  // last word highlighted in gold (optional)
   email: "ldamianp@utp.edu.pe",
   institution: "CIEAB, Universidad Tecnológica del Perú",
   address: [
