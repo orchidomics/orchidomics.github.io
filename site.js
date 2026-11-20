@@ -34,6 +34,7 @@ const NAV = [
   { label: "Publications", href: "publications.html" },
   { label: "News", href: "news.html" },
   { label: "Photos", href: "photos.html" },
+  { label: "Join the Lab", href: "join.html" },
 ];
 
 (function () {
