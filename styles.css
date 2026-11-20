@@ -177,3 +177,7 @@ section { border-top-color: #24473a; }
 /* Larger lab name on the home page */
 .hero h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem); }
 .hero-logo { width: 124px; height: 124px; }
+
+/* Larger home logo */
+.hero-logo { width: 170px; height: 170px; }
+@media (max-width: 600px) { .hero-logo { width: 120px; height: 120px; } }
