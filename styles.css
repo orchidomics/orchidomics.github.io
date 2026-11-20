@@ -197,3 +197,8 @@ section { border-top-color: #24473a; }
 
 /* Bring the logo closer to the text */
 .hero-layout { gap: .9rem; }
+
+/* Green accents: brand "lab" and Join the Lab menu button */
+.brand span { color: #3fae7a; }
+.nav a[href="join.html"] { background: #1f6b4f; color: #fff; }
+.nav a[href="join.html"]:hover, .nav a[href="join.html"].active { background: #2a8a63; color: #fff; }
