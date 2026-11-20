@@ -140,3 +140,9 @@ section.alt { background: #0a0a0a; }
 .card .tag { background: #12261d; color: #7fd4a9; }
 .timeline li::before { border-color: #000000; }
 .note { background: #2a2208; border-color: #5a4a12; color: #f3e6b0; }
+
+/* Wide profile card (avatar beside text) */
+.card.wide { grid-column: 1 / -1; display: grid; grid-template-columns: 240px 1fr; align-items: start; }
+.card.wide p { margin: 0 0 .6rem; }
+.card.wide ul { margin: 0 0 1rem; padding-left: 1.2rem; color: var(--muted); }
+@media (max-width: 640px) { .card.wide { grid-template-columns: 1fr; } }

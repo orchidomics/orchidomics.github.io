@@ -2,11 +2,15 @@
 // SITE SETTINGS — edit these values and every page updates.
 // ============================================================
 const SITE = {
-  name: "Your Lab Name",          // shown in the header
+  name: "Damian's Remote Lab",    // shown in the header
   accent: "Lab",                  // last word highlighted in gold (optional)
-  email: "you@university.edu",
-  institution: "Your University",
-  address: ["Building / Room", "City, Country"],
+  email: "ldamianp@utp.edu.pe",
+  institution: "CIEAB, Universidad Tecnológica del Perú",
+  address: [
+    "Center for Amazonian Studies and Biodiversity Research",
+    "Av. José Abelardo Quiñones 1478, San Juan Bautista",
+    "Maynas, Loreto (Iquitos), Peru",
+  ],
   year: new Date().getFullYear(),
 };
 
